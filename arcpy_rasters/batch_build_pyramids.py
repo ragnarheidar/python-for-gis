@@ -6,7 +6,7 @@ import logging
 start_timestamp = datetime.now()
 
 # path to folder with rasters
-env.workspace = r"C:\Users"
+env.workspace = r"C:\temp"
 # create logging file
 logging.basicConfig(filename="BuildStatisticsScriptLog.txt", level=logging.DEBUG)
 RasterList = arcpy.ListRasters("*")  # list rasters
