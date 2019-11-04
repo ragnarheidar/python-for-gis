@@ -6,7 +6,7 @@ start_timestamp = datetime.now()
 arcpy.env.compression = "LZ77"
 arcpy.env.outputCoordinateSystem = arcpy.SpatialReference(3057)
 # path to folder that includes .SAFE folders
-workspace = r"C:\Users"
+workspace = r"C:\temp"
 
 RasterList = []
 
