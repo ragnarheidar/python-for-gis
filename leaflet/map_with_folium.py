@@ -2,8 +2,8 @@
 import folium
 import csv
 
-# Link to Esri World Imagery service plus attribution
-IMO_basemap = "https://luk.vedur.is/arcgis/rest/services/grunnkort/grunnkort_cache_wmerc84/MapServer/tile/{z}/{y}/{x}"
+# Link to Icelandic Met Office basemap plus attribution
+IMO_basemap = "https://geo.vedur.is/geoserver/www/imo_basemap_epsg3857/{z}/{x}/{y}.png"
 IMO_Attribution = "Tiles &copy; Veðurstofa Íslands | Landmælingar Íslands | Map data © OpenStreetMap contributors"
 WeatherStationsCSV = "IMO_weatherstations_2017_06_26.csv"
 
